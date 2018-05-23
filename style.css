@@ -1,0 +1,121 @@
+body {
+  background: linear-gradient(to right, rgb(162, 188, 193) 10%, transparent 90%);
+  font-family:'Vollkorn SC', serif;
+  color: #3e4b60;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #c6d6ef;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /*use just width or height no both - nejde need equal size*/
+}
+
+.about-me {
+  padding: 0 35px;
+}
+
+.img-size {
+  width: 200px;
+}
+
+h1, h2, h3 {
+  font-family: 'Vollkorn SC', serif;
+  color: #3e4b60;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Permanent Marker', cursive;
+  color: #c10f24;
+  letter-spacing: 1.5;
+}
+
+p {
+  display: block;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+#countries td {
+  padding: 10px;
+  width: 45%;
+}
+
+.btn-blue {
+  background-color: #417690;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/*ul default to change*/
+.list-in-line {
+  padding-left: 0px;
+}
+
+.list-in-line > li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a3868;
+}
+
+a:hover {
+  color: #c61358;
+}
+
+.high {
+  color: #c61358;
+}
+
+/*to center footer need change particular p tag*/
+footer p {
+  font-family: 'Vollkorn SC', serif;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
