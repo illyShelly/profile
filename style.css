@@ -29,7 +29,6 @@ div {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  /*use just width or height no both - nejde need equal size*/
 }
 
 .about-me {
@@ -69,7 +68,7 @@ p {
   background-color: #417690;
   color: white;
   font-weight: 500;
-  padding: 8px;
+  padding: 7px;
   border-radius: 4px;
 }
 
